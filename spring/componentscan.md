@@ -30,7 +30,7 @@ public class MemberRepositoryImpl implements MemberRepository{
 
 MemberServiceImpl과 MemberRepositoryImpl에 @Component 가 붙어있으면 스프링 컨테이너에 다음과 같이 등록된다.
 
-![image-20230308222736425](/Users/tommy/Github/TIL/spring/images/image-20230308222736425.png)
+![image-20230308222736425](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/image-20230308222736425.png)
 
 `@ComponentScan`은 `@Component`가 붙은 모든 클래스들을 스프링 빈으로 등록한다. 
 
@@ -101,7 +101,7 @@ basePackages 옵션을 사용하지 않을 경우에는 `@ComponentScan` 이 붙
 
 
 
-![@SpringBootApplication](/Users/tommy/Github/TIL/spring/images/@SpringBootApplication.png)
+![@SpringBootApplication](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/%40SpringBootApplication.png)
 
 위 사진이 익숙하지 않은가? 
 
@@ -109,7 +109,7 @@ basePackages 옵션을 사용하지 않을 경우에는 `@ComponentScan` 이 붙
 
 @SpringBootApplication을 파고 들어가보면
 
-![@SpringBootApplication2](/Users/tommy/Github/TIL/spring/images/@SpringBootApplication2.png)
+![@SpringBootApplication2](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/%40SpringBootApplication2.png)
 
 @SpringBootApplication에 @ComponentScan 이 붙어있는 것을 확인할 수 있다. 
 
