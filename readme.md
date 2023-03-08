@@ -3,3 +3,6 @@
 **내가 공부한 것에 대해서 더이상 구글링 하지 않기 위해 만든 Repository**
 
 사소한 것도 기록하는 습관을 기르자
+
+[java]  
+* [equals()와 ==의 차이](https://github.com/BeomSeogKim/TIL/blob/main/java/equals.md)
