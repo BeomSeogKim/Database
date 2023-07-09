@@ -18,7 +18,7 @@ Optional은 `Java8`부터 지원하는 기능.
 
 Optional은 오직 값 한개가 들어있을 수도 없을 수도 있는 컨테이너이다. 
 
-![image-20230709223008500](/Users/github/TIL/java/images/optional1.png)
+![image-20230709223008500](https://github.com/BeomSeogKim/TIL/blob/main/java/images/optional1.png)
 
 ## Optional 사용 시 주의사항 
 
