@@ -56,9 +56,9 @@ EnableAutoConfiguration은 AutoConfiguration을 활성화 하는 기능을 제�
 
 EnableAutoConfiguration은 AutoConfigurationImportSelector을 사용하는데, Selector는 동적으로 설정정보를 선택할 수 있도록 구현되어있다. 
 
-![image-20230710135046346](/Users/github/TIL/spring/images/AutoConfiguration/AutoConfiguration1.png)
+![image1](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/AutoConfiguration/AutoConfiguration1.png)
 
-![image-20230710135146784](/Users/github/TIL/spring/images/AutoConfiguration/AutoConfiguration2.png)
+![image2](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/AutoConfiguration/AutoConfiguration2.png)
 
 Spring Boot는 spring-boot-autoconfigure에 있는 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports 설정 파일들을 읽어 들여 자동 구성을 해준다. 
 
@@ -78,11 +78,11 @@ public class MyAppAutoConfig {
 
 #### resources/META-INF/spring 하위 폴더에 파일 생성
 
-![image-20230710140121449](/Users/github/TIL/spring/images/AutoConfiguration/AutoConfiguration3.png)
+![image3](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/AutoConfiguration/AutoConfiguration3.png)
 
 파일 이름은  사진과 같이 동일한 이름이어야 한다. 
 
-![AutoConfiguration4](/Users/github/TIL/spring/images/AutoConfiguration/AutoConfiguration4.png)
+![image4](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/AutoConfiguration/AutoConfiguration4.png)
 
 `java` directory를 기준으로 해 경로 및 Class 이름 지정 . 
 
