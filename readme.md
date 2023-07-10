@@ -10,6 +10,7 @@
 
 [spring]
 * [컴포넌트 스캔](https://github.com/BeomSeogKim/TIL/blob/main/spring/componentscan.md)
+* [AutoConfiguration](https://github.com/BeomSeogKim/TIL/blob/main/spring/AutoConfiguration.md)
 
 [cs지식]
 * [자료구조](https://github.com/BeomSeogKim/TIL/blob/main/cs/자료구조.md)
