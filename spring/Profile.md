@@ -10,7 +10,7 @@
 
 배포 환경마다 다르게 값을 설정하는 가장 기본적인 방식은 개발자가 `직접` 배포환경에 맞게 Application을 build하는 것이다. 
 
-![image-20230712165651031](/Users/github/TIL/spring/images/Profiles/Profiles1.png)
+![image-20230712165651031](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/Profiles/Profiles1.png)
 
 이러한 방식의 경우 다음과 같은 단점을 지닌다. 
 
@@ -22,7 +22,7 @@
 
 이러한 단점을 해결하기 위해 설정값들을 실행 시점에 주입을 할 수 있다. 
 
-![image-20230712170117281](/Users/github/TIL/spring/images/Profiles/Profiles2.png)
+![image-20230712170117281](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/Profiles/Profiles2.png)
 
 이러한 방식의 경우 다음과 같은 장점을 가진다.
 
@@ -67,7 +67,7 @@ java -Dusername=hello -Dpassword=sa -jar app.jar
 
 IntelliJ에서는 다음과 같은 설정을 통해 보다 간편하게 실행시킬 수 있다. 
 
-![image-20230712171617580](/Users/github/TIL/spring/images/Profiles/Profiles3.png)
+![image-20230712171617580](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/Profiles/Profiles3.png)
 
 ### 커맨드 라인 인수 
 
