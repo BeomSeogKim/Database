@@ -4,7 +4,7 @@
 >
 > 비영속(new / transient), 영속(managed), 준영속(detached), 삭제(removed)
 
-![image-20230719114039135](/Users/github/TIL/jpa/images/lifecycle/image-20230719114039135.png)
+![image-20230719114039135](https://github.com/BeomSeogKim/TIL/blob/main/jpa/images/lifecycle/image-20230719114039135.png)
 
 
 
