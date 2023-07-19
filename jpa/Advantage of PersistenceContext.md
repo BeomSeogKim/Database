@@ -22,19 +22,19 @@
 
 #### [1차 캐시에 데이터가 없는 경우]
 
-![image-20230719121056877](/Users/github/TIL/jpa/images/Advantage/image-20230719121056877.png)
+![image-20230719121056877](https://github.com/BeomSeogKim/TIL/blob/main/jpa/images/Advantage/image-20230719121056877.png)
 
-![image-20230719121150726](/Users/github/TIL/jpa/images/Advantage/image-20230719121150726.png)
+![image-20230719121150726](https://github.com/BeomSeogKim/TIL/blob/main/jpa/images/Advantage/image-20230719121150726.png)
 
-![image-20230719121222986](/Users/github/TIL/jpa/images/Advantage/image-20230719121222986.png)
+![image-20230719121222986](https://github.com/BeomSeogKim/TIL/blob/main/jpa/images/Advantage/image-20230719121222986.png)
 
-![image-20230719121244175](/Users/github/TIL/jpa/images/Advantage/image-20230719121244175.png)
+![image-20230719121244175](https://github.com/BeomSeogKim/TIL/blob/main/jpa/images/Advantage/image-20230719121244175.png)
 
 #### [1차 캐시에 데이터가 있는 경우]
 
-![image-20230719121959849](/Users/github/TIL/jpa/images/Advantage/image-20230719121959849.png)
+![image-20230719121959849](https://github.com/BeomSeogKim/TIL/blob/main/jpa/images/Advantage/image-20230719121959849.png)
 
-![image-20230719122033652](/Users/github/TIL/jpa/images/Advantage/image-20230719122033652.png)
+![image-20230719122033652](https://github.com/BeomSeogKim/TIL/blob/main/jpa/images/Advantage/image-20230719122033652.png)
 
 ## 동일성 보장
 
