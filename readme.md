@@ -15,6 +15,10 @@
 * [Profile 설정 - 1](https://github.com/BeomSeogKim/TIL/blob/main/spring/Profile.md)
 * [Profile 설정 - 2](https://github.com/BeomSeogKim/TIL/blob/main/spring/Profile2.md)
 
+[jpa]
+* [Enitity의 샘명주기](https://github.com/BeomSeogKim/TIL/blob/main/jpa/LifeCycle.md)
+* [영속성 컨텍스트의 이점](https://github.com/BeomSeogKim/TIL/blob/main/jpa/Advantage%20of%20PersistenceContext.md)
+
 [cs지식]
 * [자료구조](https://github.com/BeomSeogKim/TIL/blob/main/cs/자료구조.md)
 * [process](https://github.com/BeomSeogKim/TIL/blob/main/cs/process.md)
