@@ -18,6 +18,7 @@
 [jpa]
 * [Enitity의 샘명주기](https://github.com/BeomSeogKim/TIL/blob/main/jpa/LifeCycle.md)
 * [영속성 컨텍스트의 이점](https://github.com/BeomSeogKim/TIL/blob/main/jpa/Advantage%20of%20PersistenceContext.md)
+* [Query Method](https://github.com/BeomSeogKim/TIL/blob/main/jpa/Query%20Method.md)
 
 [cs지식]
 * [자료구조](https://github.com/BeomSeogKim/TIL/blob/main/cs/자료구조.md)
@@ -25,6 +26,9 @@
 * [multithread](https://github.com/BeomSeogKim/TIL/blob/main/cs/MultiThread.md)
 * [multiprocess](https://github.com/BeomSeogKim/TIL/blob/main/cs/MultiProcess.md)
 * [multithread & multiprocess](https://github.com/BeomSeogKim/TIL/blob/main/cs/MultiProcessThread.md)
+
+[DataBase]
+* [ERD & Normalization](https://github.com/BeomSeogKim/TIL/blob/main/database/ERD%20&%20Normalization.md)
 
 [etc]
 * [mac 한영전환](https://github.com/BeomSeogKim/TIL/blob/main/etc/%ED%95%9C%EC%98%81%EC%A0%84%ED%99%98.md)
