@@ -8,7 +8,7 @@
 
 
 
-![image-20230730232918606](/Users/github/TIL/cs/images/Network/TCP:IP.png)
+![image-20230730232918606](https://github.com/BeomSeogKim/TIL/blob/main/cs/images/Network/TCP%3AIP.png)
 
 **OSI 7계층, TCP/IP 4계층모델은 하위 계층의 기능을 이용하며, 상위 계층에게 기능을 제공한다.**
 
@@ -26,7 +26,7 @@
 
 
 
-![image-20230730234439566](/Users/github/TIL/cs/images/Network/Encapsulation : Decapsulation.png)
+![image-20230730234439566](https://github.com/BeomSeogKim/TIL/blob/main/cs/images/Network/Encapsulation%20%3A%20Decapsulation.png)
 
 [Data를 전송하는 과정 - Encapsulation]
 
