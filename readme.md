@@ -28,7 +28,10 @@
 * [multithread & multiprocess](https://github.com/BeomSeogKim/TIL/blob/main/cs/MultiProcessThread.md)
 
 [DataBase]
-* [ERD & Normalization](https://github.com/BeomSeogKim/TIL/blob/main/database/ERD%20&%20Normalization.md)
+* [Database Relation](https://github.com/BeomSeogKim/TIL/blob/main/database/%08Database%20Relation.md)
+* [Key](https://github.com/BeomSeogKim/TIL/blob/main/database/Key.md)
+* [Normalization](https://github.com/BeomSeogKim/TIL/blob/main/database/Normalization.md)
+* [SOFT DELETE VS HARD DELETE](https://github.com/BeomSeogKim/TIL/blob/main/database/SOFT%20%3A%20HARD%20DELETE.md)
 
 [etc]
 * [mac 한영전환](https://github.com/BeomSeogKim/TIL/blob/main/etc/%ED%95%9C%EC%98%81%EC%A0%84%ED%99%98.md)
