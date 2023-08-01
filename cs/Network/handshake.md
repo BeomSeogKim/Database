@@ -12,7 +12,7 @@ TCP 프로토콜의 데이터 전송 절차는 다음과 같다.
 
 ## 3 way handshake
 
-![image-20230801181150681](/Users/github/TIL/cs/images/Network/3-way-handshake.png)
+![image-20230801181150681](https://github.com/BeomSeogKim/TIL/blob/main/cs/images/Network/3-way-handshake.png)
 
 1. Client가 Server에 접속을 요청하는 SYN  패킷 전송 
 2. Server에서는 요청을 수락하는 ACK 패킷과 SYN 패킷을 전송 
@@ -22,7 +22,7 @@ TCP 프로토콜의 데이터 전송 절차는 다음과 같다.
 
 ## 4 way handshake
 
-![image-20230801182348051](/Users/github/TIL/cs/images/Network/4-way-handshake.png)
+![image-20230801182348051](https://github.com/BeomSeogKim/TIL/blob/main/cs/images/Network/4-way-handshake.png)
 
 1. Client process에서 active close 시에, Client TCP에서 FIN 패킷 전송 
 2. Server 에서 요청을 받음에 대한 ACK 패킷 전송 (실제 서버 프로세스는 완전히 꺼지지 않았을 수도 있다.)
