@@ -28,6 +28,8 @@
 * [multithread & multiprocess](https://github.com/BeomSeogKim/TIL/blob/main/cs/MultiProcessThread.md)
   * Network
     * [OSI 7계층 / TCP 4계층](https://github.com/BeomSeogKim/TIL/blob/main/cs/Network/TCP-IP.md)
+    * [TCP vs UDP](https://github.com/BeomSeogKim/TIL/blob/main/cs/Network/TCP%20vs%20UDP.md)
+    * [3-way-handshake, 4-way-handshake](https://github.com/BeomSeogKim/TIL/blob/main/cs/Network/handshake.md)
 
 [DataBase]
 * [Database Relation](https://github.com/BeomSeogKim/TIL/blob/main/database/%08Database%20Relation.md)
