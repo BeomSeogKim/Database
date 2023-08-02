@@ -16,7 +16,7 @@
 - headers 
 - body 
 
-![image-20230802170458491](/Users/github/TIL/cs/images/HTTP/request.png)
+![image-20230802170458491](https://github.com/BeomSeogKim/TIL/blob/main/cs/images/HTTP/request.png)
 
 ###  HTTP response message의 구성 요소 
 
@@ -24,7 +24,7 @@
 - headers
 - body
 
-![image-20230802170549371](/Users/github/TIL/cs/images/HTTP/response.png)
+![image-20230802170549371](https://github.com/BeomSeogKim/TIL/blob/main/cs/images/HTTP/response.png)
 
 
 
