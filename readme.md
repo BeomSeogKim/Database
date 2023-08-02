@@ -30,6 +30,10 @@
     * [OSI 7계층 / TCP 4계층](https://github.com/BeomSeogKim/TIL/blob/main/cs/Network/TCP-IP.md)
     * [TCP vs UDP](https://github.com/BeomSeogKim/TIL/blob/main/cs/Network/TCP%20vs%20UDP.md)
     * [3-way-handshake, 4-way-handshake](https://github.com/BeomSeogKim/TIL/blob/main/cs/Network/handshake.md)
+  * HTTP
+    * [HTTP 개요](https://github.com/BeomSeogKim/TIL/blob/main/cs/HTTP/HTTP.md)
+    * [HTTP method](https://github.com/BeomSeogKim/TIL/blob/main/cs/HTTP/HTTP%20METHOD.md)
+    * [HTTP status code](https://github.com/BeomSeogKim/TIL/blob/main/cs/HTTP/HTTP%20Status%20Code.md)
 
 [DataBase]
 * [Database Relation](https://github.com/BeomSeogKim/TIL/blob/main/database/%08Database%20Relation.md)
