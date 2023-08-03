@@ -34,6 +34,8 @@
     * [HTTP 개요](https://github.com/BeomSeogKim/TIL/blob/main/cs/HTTP/HTTP.md)
     * [HTTP method](https://github.com/BeomSeogKim/TIL/blob/main/cs/HTTP/HTTP%20METHOD.md)
     * [HTTP status code](https://github.com/BeomSeogKim/TIL/blob/main/cs/HTTP/HTTP%20Status%20Code.md)
+  * Authorization
+    * [Session vs Cookie](https://github.com/BeomSeogKim/TIL/blob/main/cs/Authorization/Session%20vs%20Cookie.md)
 
 [DataBase]
 * [Database Relation](https://github.com/BeomSeogKim/TIL/blob/main/database/%08Database%20Relation.md)
