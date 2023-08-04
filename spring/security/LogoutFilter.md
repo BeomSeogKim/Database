@@ -2,7 +2,7 @@
 
 > 로그아웃 시 작동하는 Filter
 
-![image-20230803180653941](/Users/github/TIL/spring/images/security/LogoutFilter.png)
+![image-20230803180653941](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/LogoutFilter.png)
 
 ### 작동 방식 
 
