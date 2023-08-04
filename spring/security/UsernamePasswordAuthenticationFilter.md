@@ -2,7 +2,7 @@
 
 > 로그인 아이디 / 비밀번호를 기반한 Authentication Filter
 
-![image-20230803172340082](/Users/github/TIL/spring/images/security/UsernameAuthenticationFilter.png)
+![image-20230803172340082](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/UsernameAuthenticationFilter.png)
 
 ## 동작 과정 상세 설명 
 
