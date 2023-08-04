@@ -4,7 +4,7 @@
 
 
 
-![image-20230804173005366](/Users/github/TIL/spring/images/security/AnonymousAuthenticationFilter.png)
+![image-20230804173005366](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/AnonymousAuthenticationFilter.png)
 
 
 
