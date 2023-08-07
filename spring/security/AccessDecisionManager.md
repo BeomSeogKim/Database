@@ -51,7 +51,7 @@ Voter의 결정 방식
 
 ## 동작 방식
 
-![image-20230807100854962](/Users/github/TIL/spring/images/security/AccessDecisionManager.png)
+![image-20230807100854962](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/AccessDecisionManager.png)
 
 FilterSecurityInterceptor 에서는 AccessDecisionManager에게 인가 처리를 맡긴다. 
 
