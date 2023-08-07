@@ -15,7 +15,7 @@
 
 최대 세션 허용 개수를 초과할 경우 두가지의 방식을 고려할 수 있다. 
 
-![image-20230806221102264](/Users/github/TIL/spring/images/security/SessionManagementFilter-1.png)
+![image-20230806221102264](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/SessionManagementFilter-1.png)
 
 ##### 이전 사용자 세션 만료
 
@@ -37,7 +37,7 @@
 
 
 
-![image-20230806222313428](/Users/github/TIL/spring/images/security/SessionManagementFilter-2.png)
+![image-20230806222313428](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/SessionManagementFilter-2.png)
 
 위의 그림은 Session Fixation의 예시이다. 
 
@@ -79,7 +79,7 @@
 
 ## 동작 과정
 
-![image-20230807073554238](../images/security/SessionManagementFilter-3.png)
+![image-20230807073554238](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/SessionManagementFilter-3.png)
 
 기존의 사용자가 로그인을 한 상태에서 새로운 사용자가 로그인을 하는 경우 SessionManagementFilter는 Session Storage를 검사한다.
 
