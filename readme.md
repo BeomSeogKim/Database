@@ -21,6 +21,8 @@
     * [AnonymousAuthenticationFilter](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/AnonymousAuthenticationFilter.md)
     * [SessionManagementFilter](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/SessionManagementFilter.md)
     * [AccessDecisionManager](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/AccessDecisionManager.md)
+    * [ExceptionTranslationFilter](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/ExceptionTranslationFilter.md)
+    * [CSRF](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/CSRF.md)
    
 [jpa]
 * [Enitity의 샘명주기](https://github.com/BeomSeogKim/TIL/blob/main/jpa/LifeCycle.md)
