@@ -6,7 +6,7 @@
 
 ## CSRF 공격 방식
 
-![image-20230807184405466](/Users/github/TIL/spring/images/security/CSRF.png)
+![image-20230807184405466](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/CSRF.png)
 
 1. USER는 SERVER에 로그인을 한 상태 
    - USER에게 SERVER가 발급해준 Token이 존재한다. 
