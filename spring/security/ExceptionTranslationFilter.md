@@ -22,7 +22,7 @@ ExceptionTranslationFilter는 크게 두가지 예외에 대해서 처리를 진
 
 
 
-![image-20230807182401189](/Users/github/TIL/spring/images/security/ExceptionTranslationFilter.png)
+![image-20230807182401189](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/ExceptionTranslationFilter.png)
 
 
 
