@@ -24,4 +24,4 @@ Security Context 저장방식을 지정
 
 
 
-![image-20230809164521938](/Users/github/TIL/spring/images/security/SecurityContext.png)
+![image-20230809164521938](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/SecurityContext.png)
