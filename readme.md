@@ -23,6 +23,8 @@
     * [AccessDecisionManager](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/AccessDecisionManager.md)
     * [ExceptionTranslationFilter](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/ExceptionTranslationFilter.md)
     * [CSRF](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/CSRF.md)
+    * [Authentication](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/Authentication.md)
+    * [Security Context](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/SecurityContext.md)
    
 [jpa]
 * [Enitity의 샘명주기](https://github.com/BeomSeogKim/TIL/blob/main/jpa/LifeCycle.md)
@@ -35,6 +37,8 @@
 * [multithread](https://github.com/BeomSeogKim/TIL/blob/main/cs/MultiThread.md)
 * [multiprocess](https://github.com/BeomSeogKim/TIL/blob/main/cs/MultiProcess.md)
 * [multithread & multiprocess](https://github.com/BeomSeogKim/TIL/blob/main/cs/MultiProcessThread.md)
+  * DataBase
+    * [Transaction](https://github.com/BeomSeogKim/TIL/blob/main/cs/database/Transaction.md)
   * Network
     * [OSI 7계층 / TCP 4계층](https://github.com/BeomSeogKim/TIL/blob/main/cs/Network/TCP-IP.md)
     * [TCP vs UDP](https://github.com/BeomSeogKim/TIL/blob/main/cs/Network/TCP%20vs%20UDP.md)
@@ -45,7 +49,7 @@
     * [HTTP status code](https://github.com/BeomSeogKim/TIL/blob/main/cs/HTTP/HTTP%20Status%20Code.md)
   * Authorization
     * [Session vs Cookie](https://github.com/BeomSeogKim/TIL/blob/main/cs/Authorization/Session%20vs%20Cookie.md)
-
+  
 [DataBase]
 * [Database Relation](https://github.com/BeomSeogKim/TIL/blob/main/database/%08Database%20Relation.md)
 * [Key](https://github.com/BeomSeogKim/TIL/blob/main/database/Key.md)
