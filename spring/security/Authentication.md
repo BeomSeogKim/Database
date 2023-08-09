@@ -18,7 +18,7 @@ Authentication Parameter
 - details : 인증 부가 정보
 - Authenticated : 인증 여부
 
-![image-20230809162728239](/Users/github/TIL/spring/images/security/Authentication.png)
+![image-20230809162728239](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/security/Authentication.png)
 
 [인증 전]
 
