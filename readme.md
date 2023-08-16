@@ -14,6 +14,8 @@
 * [AutoConfiguration](https://github.com/BeomSeogKim/TIL/blob/main/spring/AutoConfiguration.md)
 * [Profile 설정 - 1](https://github.com/BeomSeogKim/TIL/blob/main/spring/Profile.md)
 * [Profile 설정 - 2](https://github.com/BeomSeogKim/TIL/blob/main/spring/Profile2.md)
+  * database
+    * [JDBC에 대한 이해](https://github.com/BeomSeogKim/TIL/blob/main/spring/database/JDBC.md)
   * security
     * [UsernamePasswordAuthenticationFilter](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/UsernamePasswordAuthenticationFilter.md)
     * [LogoutFilter](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/LogoutFilter.md)
@@ -25,6 +27,7 @@
     * [CSRF](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/CSRF.md)
     * [Authentication](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/Authentication.md)
     * [Security Context](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/SecurityContext.md)
+    * [SecurityContextPersistenceFilter](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/SecurityContextPersistenceFilter.md)
    
 [jpa]
 * [Enitity의 샘명주기](https://github.com/BeomSeogKim/TIL/blob/main/jpa/LifeCycle.md)
