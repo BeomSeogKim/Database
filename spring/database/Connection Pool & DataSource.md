@@ -8,7 +8,7 @@
 
 ### 커넥션 조회 및 생성 과정 
 
-![ConnectionPool-1](/Users/github/TIL/spring/images/database/ConnectionPool-1.png)
+![ConnectionPool-1](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/ConnectionPool-1.png)
 
 Connection Pool을 사용하지 않을 때, 일반적인 커넥션 조회 및 생성 과정은 위의 그림과 같다. 
 
@@ -33,7 +33,7 @@ Connection Pool을 사용하지 않을 때, 일반적인 커넥션 조회 및 �
 
 ### Connection Pool 초기화 과정 
 
-![ConnectionPool-2](/Users/github/TIL/spring/images/database/ConnectionPool-2.png)
+![ConnectionPool-2](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/ConnectionPool-2.png)
 
 애플리케이션이 시작 될 때 Connection Pool은 미리 설정해 둔 Connection의 개수만큼 Connection을 생성해 Connection Pool에 저장을 해둔다. 
 
@@ -43,11 +43,11 @@ Connection Pool을 사용하지 않을 때, 일반적인 커넥션 조회 및 �
 
 ### Connection Pool 사용 과정 
 
-![image-20230817155932826](../images/database/ConnectionPool-3.png)
+![image-20230817155932826](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/ConnectionPool-3.png)
 
 Connection Pool을 사용할 경우 Connection을 조회할 때 Connection Pool에 미리 생성해둔 Connection을 반환한다. 
 
-![ConnectionPool-4](../images/database/ConnectionPool-4.png)
+![ConnectionPool-4](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/ConnectionPool-4.png)
 
 Connection을 다 사용한 경우 Connection 객체를 다시 Connection Pool에 반환한다
 
@@ -59,13 +59,13 @@ Connection을 다 사용한 경우 Connection 객체를 다시 Connection Pool�
 
 Application Logic에서 Connection을 얻을 수 있는 방식이 다양하다. 
 
-![DataSource-1](../images/database/DataSource-1.png)
+![DataSource-1](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/DataSource-1.png)
 
 만약 DriverManager를 사용하고 있다가 Hikari CP를 사용하려고 하는 경우 애플리케이션 코드를 수정해야 한다는 문제점이 생긴다. 
 
 이를 해결 하기 위해 DataSource라는 인터페이스가 생겨났다. 
 
-![DataSource-2](../images/database/DataSource-2.png)
+![DataSource-2](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/DataSource-2.png)
 
 DataSouce의 주된 추상메서드는 `getConnection()` 이다. 
 
