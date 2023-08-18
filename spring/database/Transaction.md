@@ -33,7 +33,7 @@ Transaction은 크게 4가지의 특징을 지닙니다.
 
 ### WAS와 DB의 연결 수립 과정 
 
-![Transaction-1](../images/database/Transaction-1.png)
+![Transaction-1](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/Transaction-1.png)
 
 WAS가 DB와의 커넥션을 생성하면 DB는 내부적으로 Session을 생성한다.
 
