@@ -1,13 +1,13 @@
 # TIL 저장소 
 
-**내가 공부한 것에 대해서 더이상 구글링 하지 않기 위해 만든 Repository**
-
-사소한 것도 기록하는 습관을 기르자
+### Repository about my study log
 
 [java]  
 * [equals()와 ==의 차이](https://github.com/BeomSeogKim/TIL/blob/main/java/equals.md)
 * [Optional](https://github.com/BeomSeogKim/TIL/blob/main/java/Optional.md)
 * [record](https://github.com/BeomSeogKim/TIL/blob/main/java/record.md)
+* [Exception](https://github.com/BeomSeogKim/TIL/blob/main/java/Exception.md)
+* [EnumSet, EnumMap](https://github.com/BeomSeogKim/TIL/blob/main/java/Enum%20Set%20%26%20Map.md)
 
 [spring]
 * [컴포넌트 스캔](https://github.com/BeomSeogKim/TIL/blob/main/spring/componentscan.md)
