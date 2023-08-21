@@ -4,7 +4,7 @@
 
 > 데이터 접근 기술마다 Transaction 관련 구현해야하는 코드 방식들이 다르다. 스프링에서는 이를 공통 처리하기 위해 Transaction Manager Interface를 제공한다. 
 
-![SpringTransaction-1](/Users/github/TIL/spring/images/database/SpringTransaction-1.png)
+![SpringTransaction-1](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/SpringTransaction-1.png)
 
 데이터 접근 기술마다 트랜잭션을 사용하는 방법이 다르다.
 
@@ -56,7 +56,7 @@ public abstract class TransactionSynchronizationManager {
 
 ### 트랜잭션 매니저의 동작 과정 
 
-![SpringTransaction-2](/Users/github/TIL/spring/images/database/SpringTransaction-2.png)
+![SpringTransaction-2](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/SpringTransaction-2.png)
 
 1. 트랜잭션 호출
    - `transactionManager.getTransaction()`를 호출해 트랜잭션을 시작한다
