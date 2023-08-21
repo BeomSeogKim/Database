@@ -1,6 +1,6 @@
 # 자바의 예외 
 
-![image-20230822004059389](/Users/github/TIL/java/images/Exception.png)
+![image-20230822004059389](https://github.com/BeomSeogKim/TIL/blob/main/java/images/Exception.png)
 
 ##### [Error]
 
