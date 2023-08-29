@@ -9,7 +9,7 @@ Test가 지녀야 하는 특징은 다음 두가지다.
 
 이러한 특징을 간편하게 사용을 하기 위해서는 @Transactional 을 사용하면된다. 
 
-![Test-1](/Users/github/TIL/spring/images/database/Test-1.png)
+![Test-1](https://github.com/BeomSeogKim/TIL/blob/main/spring/images/database/Test-1.png)
 
 테스트 코드에서 @Transactional 이 붙는 경우 서비스 코드에 붙이는 것과 달리 조금 상이하게 동작한다.
 
