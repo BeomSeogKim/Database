@@ -65,3 +65,4 @@
 
 [etc]
 * [mac 한영전환](https://github.com/BeomSeogKim/TIL/blob/main/etc/%ED%95%9C%EC%98%81%EC%A0%84%ED%99%98.md)
+* [git-flow 전략](https://github.com/BeomSeogKim/TIL/blob/main/etc/git-flow.md)
