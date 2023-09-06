@@ -20,6 +20,8 @@
     * [Transaction에 대한 이해](https://github.com/BeomSeogKim/TIL/blob/main/spring/database/Transaction.md)
     * [Spring Transaction](https://github.com/BeomSeogKim/TIL/blob/main/spring/database/Spring%20Transaction.md)
     * [Spring DataBase Test](https://github.com/BeomSeogKim/TIL/blob/main/spring/database/DabaseTest.md)
+    * [Spring Transaction-2](https://github.com/BeomSeogKim/TIL/blob/main/spring/database/Spring%20Transaction%20-%202.md)
+    * [Spring Propagation](https://github.com/BeomSeogKim/TIL/blob/main/spring/database/Transaction%20Propagation.md)
   * security
     * [UsernamePasswordAuthenticationFilter](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/UsernamePasswordAuthenticationFilter.md)
     * [LogoutFilter](https://github.com/BeomSeogKim/TIL/blob/main/spring/security/LogoutFilter.md)
