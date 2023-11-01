@@ -13,7 +13,38 @@ EnumSet의 장점은 다음과 같다.
 3. Null 항목 불가능
    - EnumSet은 null을 허용하지 않기 때문에, 실수로 null을 추가하거나 조회하려고 하는 경우를 방지해준다. 
 
-## 
+### Bit Vector 
+
+EnumSet은 Enum 상수의 순서에 따라 비트를 할당한다. 
+
+예를 들어 
+
+```java
+public enum Weekday {
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+}
+```
+
+위와 같은 Enum이 있을 때 EnumSet을 다음과 같이 만든다고 가정하자. 
+
+```java
+EnumSet<Weekday> weekdays = EnumSet.of(Weekday.MONDAY, Weekday.WEDNESDAY);
+```
+
+weekdays에는 MONDAY, WEDNESDAY만 존재한다. 
+
+내부적으로 EnumSet은 비트벡터로 표현된다. `Weekday`에 7개의 상수가 존재하므로 7비트의 비트 벡터가 필요하다. 
+
+각 비트는 하나의 Enum 상수에 대응된다. 
+
+- `MONDAY` 는 첫번째 비트에 매핑
+- `WEDNESDAY` 는 세번째 비트에 매핑 
+
+```java
+0000101  (2진수)
+```
+
+위와 같이 내부적으로 표현 할 수 있다. 
 
 ## EnumMap
 
@@ -30,7 +61,7 @@ EnumMap의 장점은 다음과 같다.
 4. Null키 불가능
    - EnumMap은 null key를 허용하지 않는다. 
 
-
+### 
 
 ## 사용 예시 
 
