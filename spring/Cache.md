@@ -80,6 +80,91 @@ cache-names의 경우 저장하고자 하는 캐시 value를 의미함.
 
 ***ExpireAfterWrite, ExpireAfterAccess가 공존하는 경우 ExpireAfterWrite가 우선권을 가진다.***
 
+### @Cacheable
+
+메서드에 대해 캐싱을 활성화 할 수 있는 어노테이션.
+
+```java
+@Cacheable(value = "MemberCache", unless = "#result == null", key = "{#id}")
+public Member getMemberCache(Long id) {
+    return memberRepository.findById(id)
+        .orElseThrow(() -> new EntityNotFoundException("해당 회원을 찾을 수 없습니다."));
+}
+```
+
+### 사용자 정의 캐시 키 이름 생성 
+
+> 기본적으로 Spring Data는 params 메서드를 사용해 캐시 키를 계산한다. 
+> 계산된 키에 대한 캐시에 값이 없으면 대상 메서드가 호출되고 반환된 값은 연결된 캐시에 저장된다. 
+
+#### SpEL 사용
+
+```java
+@Cacheable(value = "StudentCache", key="{#surname}")
+public int getId(String name, String surname) {
+	return studentDAO.fetchId(name, surname);
+}
+```
+
+key에 다음과 같이 지정을 하면 parameter 중 surname을 기반으로 캐시 키를 만든다. 
+
+#### 사용자 정의 Key Generator 사용
+
+```java
+public class SurnameKeyGenerator implements KeyGenerator {
+
+	public Object generate(Object target, Method method, Object... params) {
+		return params[1];
+	}
+}
+---
+@Bean("surnameKeyGenerator")
+public KeyGenerator keyGenerator() {
+	return new SurnameKeyGenerator();
+}
+---
+@Cacheable(value = "StudentCache", keyGenerator = "surnameKeyGenerator")
+public int getId(String name, String surname) {
+	return studentDAO.fetchId(name, surname);
+}
+```
+
+Custom 한 Key Generator르 사용하고자 한다면 직접 Generator를 생성하고 빈으로 등록하면 된다, 
+
+그 후 사용하고자 하는 곳에 keyGenerator로 명시해 주면된다. 
+
+### 조건부 캐싱
+
+> condition, unless 혹은 application.properties를 통해 조건부 캐시를 가질 수 있다.
+
+#### condition
+
+```java
+@Cacheable(value = "StudentCache", condition = "#surname != 'abc'")
+public int getId(String name, String surname) {
+	return studentDAO.fetchId(name, surname);
+}
+```
+
+해당 경우는 surname이 abc가 아닌 경우에만 캐시한다. 
+
+#### unless 
+
+```java
+@Cacheable(value = "StudentCache", unless = "#surname == 'abc'")
+public int getId(String name, String surname) {
+	return studentDAO.fetchId(name, surname);
+}
+```
+
+해당 경우는 surname이 abc가 아니면 캐시한다. 
+
+
+
+### @Cacheable과 @CachePut의 차이점 
+
+@Cacheable의 경우 지정된 캐시 키에 대해 한번만 실행되며, 후속 요청은 캐시가 만료되거나 플러시 될때 까지 해당 메서드를 실행하지 않는다. 반면 @CachePut의 경우 condition or unless 조건에 일치된다면 무조건적으로 실행한다.
+
 
 
 
@@ -105,7 +190,8 @@ cache-names의 경우 저장하고자 하는 캐시 value를 의미함.
 참고하면 좋을만한 자료 
 
 - [HOWTODOINJAVA](https://howtodoinjava.com/spring-boot/spring-boot-caffeine-cache/)
-- 
+- [dev.to - ](https://dev.to/noelopez/spring-cache-speed-up-your-app-1gf6)
+- [dev.to - 2](https://dev.to/noelopez/spring-cache-with-caffeine-384l)
 
 
 
