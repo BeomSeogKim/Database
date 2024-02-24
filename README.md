@@ -27,7 +27,7 @@
 
 - <details>
   <summary><b>Spring - Database</b></summary>
-
+    * [Spring Data Project](https://github.com/BeomSeogKim/Database/blob/main/spring/database/SpringData.md)
     * [JDBC에 대한 이해](https://github.com/BeomSeogKim/TIL/blob/main/spring/database/JDBC.md)
     * [Connection Pool & DataSource](https://github.com/BeomSeogKim/TIL/blob/main/spring/database/Connection%20Pool%20&%20DataSource.md)
     * [Transaction에 대한 이해](https://github.com/BeomSeogKim/TIL/blob/main/spring/database/Transaction.md)
